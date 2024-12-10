@@ -2,6 +2,7 @@
 This repo for reproduction of WAS team on LAVA challenge
 
 # Install environment
+```
 conda create -n was_lava python==3.10
 conda activate was_lava
 conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
@@ -12,6 +13,7 @@ pip install flash-attn
 pip install optimum
 pip install transformers -U
 pip install auto-gptq
+```
 
 # reproduction:
 - Please just extract dataset from organizer in current folder, the dataset folder file name "LAVA_Challenge_Data":
